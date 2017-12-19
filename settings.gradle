@@ -1,0 +1,1 @@
+include ':camera', ':xmp_toolkit', ':camera2_portability', 'camera2_utils'

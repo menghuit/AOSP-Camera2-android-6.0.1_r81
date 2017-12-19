@@ -1,0 +1,12 @@
+apply plugin: 'java'
+
+sourceCompatibility = rootProject.ext.source_compatibility
+targetCompatibility = rootProject.ext.targetCompatibility
+
+sourceSets {
+    main {
+        java {
+            srcDirs = ["XMPCore/src"]
+        }
+    }
+}
